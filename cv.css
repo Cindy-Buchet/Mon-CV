@@ -4,6 +4,7 @@ body{
     margin: auto;
     background-color: #A9BABC;
     top: 20px;
+    bottom: 50px;
     position: relative;
     font-family: "Titilium Web", sans-serif;
     font-size: 16px;
@@ -19,7 +20,7 @@ h1{
 }
 
 h2{
-    color: #7D4865;
+    color: #C49329;
     text-transform: uppercase;
     font-family: "amaranth", sans-serif;
     font-size: 24px;
@@ -32,7 +33,7 @@ h2{
 
 .titre__ligne-g{
     border-bottom: 3px solid #3D3917;
-    width: 160px;
+    width: 210px;
 }
 
 /** HEADER **/
@@ -69,7 +70,7 @@ main{
     margin: 0% 2%;
 }
 
-.section{
+.droite .section{
     margin-bottom: 20px;
     display: grid;
     grid-template-columns: 22% 74%;
@@ -104,8 +105,13 @@ main{
     grid-template-columns: 10% 90%;
 }
 
-.section__atouts p{
-    line-height: 16px
+.section__g p{
+    line-height: 16px;
+}
+
+.section__g h2{
+    margin-top: 30px;
+    position: relative;
 }
 
 .gauche{
@@ -124,6 +130,13 @@ main{
     margin-bottom: 17px;
 }
 
-#forma__bottom p{
-    margin-bottom: 100px;
+#forma__bottom p:nth-child(1){
+    margin-bottom: 73px;
+}
+#forma__bottom p:nth-child(2){
+    margin-bottom: 97px;
+}
+
+#forma__bottom-2 p:nth-child(1){
+    margin-bottom: 44px;
 }
