@@ -1,16 +1,51 @@
 body{
     width: 90%;
-    max-width: 800px;
+    max-width: 960px;
     margin: auto;
+    background-color: #A9BABC;
+    top: 20px;
+    position: relative;
+    font-family: "Titilium Web", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #A9BABC;
+    font-family: "amaranth", sans-serif;
+    font-size: 36px;
+}
+
+h2{
+    color: #7D4865;
+    text-transform: uppercase;
+    font-family: "amaranth", sans-serif;
+    font-size: 24px;
+}
+
+.titre__ligne{
+    border-bottom: 3px solid #3D3917;
+    width: 300px;
+}
+
+.titre__ligne-g{
+    border-bottom: 3px solid #3D3917;
+    width: 160px;
 }
 
 /** HEADER **/
-
+header p{
+    font-size: 16px;
+    text-transform: uppercase;
+}
 .rectangle{
-    background-color: blue;
+    background-color:#B8A730;
     padding: 50px 30px 15px 30px;
     margin-top: -60px;
     z-index: 1;
+    border: 3px solid #3D3917;
 }
 
 .img__cindy{
@@ -18,30 +53,26 @@ body{
     height: 150px;
     border-radius: 50%;
     z-index: 2;
+    border: 3px solid #3D3917;
 }
 
 header{
     margin-right: auto;
     margin-left: auto;
     text-align: center;
-    
-}
-
-h1{
-    text-transform: uppercase;
-    letter-spacing: 2px;
 }
 
 /** DEUX COLONNES **/
 main{
     display: grid;
-    grid-template-columns: 35% 65%;
+    grid-template-columns: 31% 64%;
+    margin: 0% 2%;
 }
 
 .section{
-    margin-bottom: 70px;
+    margin-bottom: 20px;
     display: grid;
-    grid-template-columns: 25% 75%;
+    grid-template-columns: 22% 74%;
 }
 
 .section__gauche{
@@ -56,9 +87,43 @@ main{
 
 .section__gauche img{
     width: 20px;
+    top: 20px;
+    position: relative;
+}
+
+.img__mail{
+    margin-top: 72px;
+}
+
+.img__phone, .img__birthday{
+    margin-top: 14px;
 }
 
 .section-g{
     display: grid;
     grid-template-columns: 10% 90%;
+}
+
+.section__atouts p{
+    line-height: 16px
+}
+
+.gauche{
+    border-right: 3px solid #3D3917;
+    margin: 0% 2%;
+}
+.droite{
+    margin: 0% 2%;
+}
+/** PARTIE DE DROITE **/
+.titre{
+    font-weight: bold;
+}
+
+#forma__gauche p{
+    margin-bottom: 17px;
+}
+
+#forma__bottom p{
+    margin-bottom: 100px;
 }
