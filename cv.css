@@ -9,6 +9,7 @@ body{
     font-family: "Titilium Web", sans-serif;
     font-size: 16px;
     line-height: 28px;
+    word-wrap: break-word;
 }
 
 h1{
@@ -33,12 +34,12 @@ h2{
 
 .titre__ligne-g{
     border-bottom: 3px solid #3D3917;
-    width: 210px;
+    width: 200px;
 }
 
 /** HEADER **/
 header p{
-    font-size: 16px;
+    font-size: 24px;
     text-transform: uppercase;
 }
 .rectangle{
@@ -64,10 +65,16 @@ header{
 }
 
 /** DEUX COLONNES **/
-main{
-    display: grid;
-    grid-template-columns: 31% 64%;
-    margin: 0% 2%;
+
+@media only screen and (min-width: 791px) {
+    main{
+        display: grid;
+        grid-template-columns: 31% 64%;
+        margin: 0% 2%;
+    }  
+    .section__droite{
+        margin-left: 10px;
+    }
 }
 
 .droite .section{
@@ -115,11 +122,17 @@ main{
 }
 
 .gauche{
-    border-right: 3px solid #3D3917;
     margin: 0% 2%;
 }
+
 .droite{
     margin: 0% 2%;
+}
+
+@media only screen and (min-width: 791px) {
+    .gauche{
+        border-right: 3px solid #3D3917;
+    }
 }
 /** PARTIE DE DROITE **/
 .titre{
