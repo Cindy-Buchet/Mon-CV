@@ -1,0 +1,64 @@
+body{
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+}
+
+/** HEADER **/
+
+.rectangle{
+    background-color: blue;
+    padding: 50px 30px 15px 30px;
+    margin-top: -60px;
+    z-index: 1;
+}
+
+.img__cindy{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+header{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    
+}
+
+h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/** DEUX COLONNES **/
+main{
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+
+.section{
+    margin-bottom: 70px;
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.section__gauche{
+    grid-column: 1;
+}
+
+.section__droite{
+    grid-column: 2;
+}
+
+/** PARTIE DE GAUCHE **/
+
+.section__gauche img{
+    width: 20px;
+}
+
+.section-g{
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
