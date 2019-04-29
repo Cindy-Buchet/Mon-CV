@@ -2,7 +2,7 @@ body{
     width: 90%;
     max-width: 960px;
     margin: auto;
-    background-color: #A9BABC;
+    background-color: #BD623C;
     top: 20px;
     bottom: 50px;
     position: relative;
@@ -15,25 +15,25 @@ body{
 h1{
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #A9BABC;
+    color: #BD623C;
     font-family: "amaranth", sans-serif;
     font-size: 36px;
 }
 
 h2{
-    color: #C49329;
+    color: #2F632F;
     text-transform: uppercase;
     font-family: "amaranth", sans-serif;
     font-size: 24px;
 }
 
 .titre__ligne{
-    border-bottom: 3px solid #3D3917;
+    border-bottom: 3px solid #688A55;
     width: 300px;
 }
 
 .titre__ligne-g{
-    border-bottom: 3px solid #3D3917;
+    border-bottom: 3px solid #688A55;
     width: 200px;
 }
 
@@ -43,11 +43,11 @@ header p{
     text-transform: uppercase;
 }
 .rectangle{
-    background-color:#B8A730;
+    background-color:#573E3E;
     padding: 50px 30px 15px 30px;
     margin-top: -60px;
     z-index: 1;
-    border: 3px solid #3D3917;
+    border: 3px solid #688A55;
 }
 
 .img__cindy{
@@ -55,7 +55,7 @@ header p{
     height: 150px;
     border-radius: 50%;
     z-index: 2;
-    border: 3px solid #3D3917;
+    border: 3px solid #688A55;
 }
 
 header{
@@ -107,6 +107,12 @@ header{
     margin-top: 14px;
 }
 
+@media only screen and (min-width: 791px) {
+    .img__phone{
+        margin-top: 41px;
+    }
+}
+
 .section-g{
     display: grid;
     grid-template-columns: 10% 90%;
@@ -131,7 +137,7 @@ header{
 
 @media only screen and (min-width: 791px) {
     .gauche{
-        border-right: 3px solid #3D3917;
+        border-right: 3px solid #688A55;
     }
 }
 /** PARTIE DE DROITE **/
@@ -140,7 +146,7 @@ header{
 }
 
 #forma__gauche p{
-    margin-bottom: 17px;
+    margin-bottom: 42px;
 }
 
 #forma__bottom p:nth-child(1){
@@ -149,7 +155,100 @@ header{
 #forma__bottom p:nth-child(2){
     margin-bottom: 97px;
 }
+@media only screen and (min-width: 362px) {
+    #forma__bottom p:nth-child(1){
+        margin-bottom: 45px;
+    }
+    #forma__bottom p:nth-child(2){
+        margin-bottom: 129px;
+    }
+}
+
+@media only screen and (min-width: 471px) {
+    #forma__bottom p:nth-child(2){
+        margin-bottom: 99px;
+    }
+}
+
+@media only screen and (min-width: 506px) {
+    #forma__bottom p:nth-child(1){
+        margin-bottom: 72px;
+    }
+    #forma__bottom p:nth-child(2){
+        margin-bottom: 127px;
+    }
+}
+@media only screen and (min-width: 589px) {
+    #forma__bottom p:nth-child(2){
+        margin-bottom: 100px;
+    }
+}
+
+@media only screen and (min-width: 791px) {
+    #forma__bottom p:nth-child(1){
+        margin-bottom: 44px;
+    }
+    #forma__bottom p:nth-child(2){
+        margin-bottom: 127px;
+    }
+}
+@media only screen and (min-width: 792px) {
+    #forma__bottom p:nth-child(2){
+        margin-bottom: 100px;
+    }
+}
+
+@media only screen and (min-width: 824px) {
+    #forma__bottom p:nth-child(1){
+        margin-bottom: 72px;
+    }
+    #forma__bottom p:nth-child(2){
+        margin-bottom: 127px;
+    }
+}
+@media only screen and (min-width: 983px) {
+    #forma__bottom p:nth-child(2){
+        margin-bottom: 100px;
+    }
+}
 
 #forma__bottom-2 p:nth-child(1){
     margin-bottom: 44px;
+}
+
+
+@media only screen and (min-width: 400px) {
+    #forma__gauche p:nth-child(1){
+        margin-bottom: 72px;
+    }
+}
+@media only screen and (min-width: 503px) {
+    #forma__gauche p:nth-child(1){
+        margin-bottom: 46px;
+    }
+}
+@media only screen and (min-width: 560px) {
+    #forma__gauche p:nth-child(1){
+        margin-bottom: 16px;
+    }
+}
+@media only screen and (min-width: 769px) {
+    #forma__gauche p:nth-child(1){
+        margin-bottom: 43px;
+    }
+}
+@media only screen and (min-width: 791px) {
+    #forma__gauche p:nth-child(1){
+        margin-bottom: 72px;
+    }
+}
+@media only screen and (min-width: 842px) {
+    #forma__gauche p:nth-child(1){
+        margin-bottom: 45px;
+    }
+}
+@media only screen and (min-width: 937px) {
+    #forma__gauche p:nth-child(1){
+        margin-bottom: 17px;
+    }
 }
